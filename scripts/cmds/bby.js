@@ -10,7 +10,7 @@ const mahmud = [
     "জান",
     "জানু",
     "বেবি",
-    "wifey",
+    "Jannat",
     "hina",
     "hinata",
 ];
@@ -22,9 +22,9 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
     name: "baby",
-    aliases: ["bby", "bbu", "jan", "janu", "wifey", "bot", "hinata", "hina"],
+    aliases: ["bby", "bbu", "jan", "janu", "jannat", "bot", "hinata", "hina"],
     version: "4.7",
-    author: "MahMUD",
+    author: "Ali",
     countDown: 0,
     role: 0,
     description: "better than all sim simi and most fastest",
@@ -166,12 +166,12 @@ module.exports.onChat = async ({ api, event }) => {
             const attachments = event.attachments || [];
 
             const randomMessage = [
-                "আমাকে ডাকলে ,আমি কিন্তূ কিস করে দেবো😘 ",
-                "neo amr boss k message daw 01836298139",
+                "আমাকে না ডেকে মুড়ি কিনে মুড়ি খাও😘 ",
+                "neo amr boss Ali k message daw🐸 ",
                 "গোলাপ ফুল এর জায়গায় আমি দিলাম তোমায় মেসেজ",
                 "বলো কি বলবা, সবার সামনে বলবা নাকি?🤭🤏",
                 "𝗜 𝗹𝗼𝘃𝗲 𝘆𝗼𝘂__😘😘",
-                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, MahMUD ,MahMUD ও তো করতে পারো😑?",
+                "𝗕𝗯𝘆 𝗕𝗯𝘆 না করে আমার বস মানে, Ali ,Ali ও তো করতে পারো😑?",
                 "আমার সোনার বাংলা, তারপরে লাইন কি? 🙈",
                 "🍺 এই নাও জুস খাও..!𝗕𝗯𝘆 বলতে বলতে হাপায় গেছো না 🥲",
                 "হটাৎ আমাকে মনে পড়লো 🙄",
